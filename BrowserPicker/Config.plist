@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>browsers</key>
+	<dict>
+		<key>default</key>
+		<string>com.apple.Safari</string>
+		<key>alternative</key>
+		<string>org.mozilla.firefox</string>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>hosts</key>
+		<array>
+			<string>meet.google.com</string>
+		</array>
+		<key>substrings</key>
+		<array/>
+	</dict>
+</dict>
+</plist>

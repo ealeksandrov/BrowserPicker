@@ -3,9 +3,11 @@
 [![License](https://img.shields.io/github/license/ealeksandrov/BrowserPicker.svg)](LICENSE.md)
 ![Platform](https://img.shields.io/badge/platform-macos-lightgrey.svg)
 
-Browser Picker opens links in different browsers as specified, according to rules. For example - initial setup will launch Firefox for `meet.google.com` and Safari for the rest of links.
+Browser Picker opens links in different browsers as specified, according to rules. For example, initial setup will launch Firefox for `meet.google.com` and Safari for the rest of links.
 
-There is no UI or easy way to define rule set - you should update Swift code and recompile for yourself. For good reliable solutions, check [alternatives](#alternatives) section.
+2 types of rules are set up in `plist` file - hostnames list and substrings list to match in opened URL. Also there are settings for default and alternative browsers.
+
+There is no UI or easy way to extend rule set - but you can update Swift code and recompile for yourself. For other fully-featured solutions, check [alternatives](#alternatives) section.
 
 ## Installation
 
@@ -15,7 +17,8 @@ There is no UI or easy way to define rule set - you should update Swift code and
 
 ### Rules setup
 
-Manually update `launchBrowser(for:)` function in `AppDelegate.swift`.
+* Open `BrowserPicker.app/Contents/Resources/Config.plist` and setup desired browsers and rules;
+* For advanced users - manually update `launchBrowser(for:)` function in `AppDelegate.swift` (rebuilt from source needed).
 
 ## Alternatives
 
