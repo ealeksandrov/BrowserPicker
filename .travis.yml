@@ -1,0 +1,4 @@
+language: swift
+osx_image: xcode10
+script:
+  - set -o pipefail && xcodebuild -project BrowserPicker.xcodeproj -scheme BrowserPicker CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty

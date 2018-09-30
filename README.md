@@ -1,5 +1,7 @@
 # Browser Picker
 
+[![CI Status](http://img.shields.io/travis/ealeksandrov/BrowserPicker.svg)](https://travis-ci.org/ealeksandrov/BrowserPicker)
+[![Latest Release](https://img.shields.io/github/release/ealeksandrov/BrowserPicker.svg)](https://github.com/ealeksandrov/BrowserPicker/releases/latest)
 [![License](https://img.shields.io/github/license/ealeksandrov/BrowserPicker.svg)](LICENSE.md)
 ![Platform](https://img.shields.io/badge/platform-macos-lightgrey.svg)
 
@@ -11,7 +13,8 @@ There is no UI or easy way to extend rule set - but you can update Swift code an
 
 ## Installation
 
-* Clone this repo and build it from source;
+* Download dmg from [releases page](https://github.com/ealeksandrov/BrowserPicker/releases/latest);
+* Or clone this repo and build it from source;
 * Run app at least once;
 * Set `BrowserPicker.app` as default web browser in `System Preferences` -> `General`.
 
